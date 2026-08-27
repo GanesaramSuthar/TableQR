@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# MongoDB
+data/
+mongod.log
+mongodb.tgz
+mongodb-linux-x86_64-ubuntu2204-7.0.5/
+
+# Uploaded files
+uploads/
+
+# OS
+.DS_Storetableqr.zip
+tableqr.zip
