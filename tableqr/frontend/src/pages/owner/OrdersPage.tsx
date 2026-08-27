@@ -9,7 +9,7 @@ const STATUS_LABELS: Record<string, string> = { PENDING: 'Pending', ACCEPTED: 'A
 const STATUS_COLORS: Record<string, 'orange' | 'blue' | 'green' | 'red'> = { PENDING: 'orange', ACCEPTED: 'blue', PREPARING: 'orange', READY: 'green', SERVED: 'green', CANCELLED: 'red' };
 
 export default function OrdersPage() {
-  const [restaurant, setRestaurant] = useState<Restaurant | null>(null);
+  const [, setRestaurant] = useState<Restaurant | null>(null);
   const [orders, setOrders] = useState<Order[]>([]);
   const [filter, setFilter] = useState('active');
   const [loading, setLoading] = useState(true);

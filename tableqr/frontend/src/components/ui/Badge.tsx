@@ -1,5 +1,4 @@
-import { ReactNode } from 'react';
-
+import { type ReactNode } from "react";
 export default function Badge({ children, variant = 'green', className = '' }: { children: ReactNode; variant?: 'green' | 'orange' | 'red' | 'gray' | 'blue'; className?: string }) {
   const variants = {
     green: 'bg-green/10 text-green border-green/20',

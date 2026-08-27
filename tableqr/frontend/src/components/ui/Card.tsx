@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
 export default function Card({ children, className = '', onClick, hover }: { children: ReactNode; className?: string; onClick?: () => void; hover?: boolean }) {
   return (

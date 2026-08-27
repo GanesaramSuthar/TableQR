@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
-import { ReactNode } from 'react';
+import { type ReactNode } from "react";
 import OwnerLayout from './components/layout/OwnerLayout';
 import LandingPage from './pages/public/LandingPage';
 import RegisterPage from './pages/owner/RegisterPage';

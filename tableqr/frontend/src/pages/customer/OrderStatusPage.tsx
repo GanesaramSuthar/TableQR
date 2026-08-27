@@ -67,7 +67,7 @@ export default function OrderStatusPage() {
             <div className="flex justify-between font-bold text-lg pt-1"><span>Total</span><span className="text-green">₹{order.total}</span></div>
           </div>
         </div>
-        <div className="text-center text-charcoal-light"><p>Table {order.tableNumber} · {order.restaurantName}</p></div>
+        <div className="text-center text-charcoal-light"><p>Table {order.tableNumber}</p></div>
       </div>
     </div>
   );
