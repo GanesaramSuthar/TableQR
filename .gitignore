@@ -21,3 +21,5 @@ uploads/
 # OS
 .DS_Storetableqr.zip
 tableqr.zip
+frontend/.env.production
+.env.*
